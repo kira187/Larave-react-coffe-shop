@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .label-form {
+        @apply text-slate-800;
+    },
+    .input-form {
+        @apply mt-2 w-full p-3 bg-gray-100 rounded-lg outline-slate-200;
+    }
+}
